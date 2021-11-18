@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LinkedList
 {
@@ -6,7 +7,15 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Linked List Programs!");
+            List<int> L1 = new List<int>();
+            L1.Add(56);
+            L1.Add(70);
+            L1.Add(30);
+            foreach (var element in L1)
+            {
+                Console.WriteLine(element);
+            }
+
         }
     }
 }
