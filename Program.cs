@@ -15,8 +15,8 @@ namespace LinkedList
             {
                 Console.WriteLine(element);
             }
-            L1.RemoveAt(0);
-            Console.WriteLine("Afetr removing first element------------");
+            L1.RemoveAt(2);
+            Console.WriteLine("Afetr removing last element------------");
             foreach (var element in L1)
             {
                 Console.WriteLine(element);
