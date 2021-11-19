@@ -9,17 +9,19 @@ namespace LinkedList
         {
             List<int> L1 = new List<int>();
             L1.Add(56);
+            L1.Add(30);
             L1.Add(70);
             foreach (var element in L1)
             {
                 Console.WriteLine(element);
             }
-            L1.Insert(1, 30);
-            Console.WriteLine("After inserting 30 between 56 and 70-------------------------");
+            L1.RemoveAt(0);
+            Console.WriteLine("Afetr removing first element------------");
             foreach (var element in L1)
             {
                 Console.WriteLine(element);
             }
+
         }
     }
 }
